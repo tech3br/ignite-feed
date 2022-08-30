@@ -1,4 +1,27 @@
 .header {
-    background-color: #333;
-    height: 80px;
+    background-color: var(--gray-800);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1.25rem 0;
+}
+
+.header img {
+    height: 2rem;
+    margin-right: 1rem;
+}
+
+.header h1 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.625rem;
+    line-height: 160%;
+
+    /* Platform Aliases/Títulos */
+    color: var(--white);
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
 }
