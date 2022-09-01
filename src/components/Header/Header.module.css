@@ -7,21 +7,14 @@
 }
 
 .header img {
-    height: 2rem;
+    height: 3rem;
     margin-right: 1rem;
 }
 
 .header h1 {
     font-style: normal;
     font-weight: 700;
-    font-size: 1.625rem;
-    line-height: 160%;
-
-    /* Platform Aliases/Títulos */
+    font-size: 1.5991rem;
+    line-height: 1.6;
     color: var(--white);
-
-    /* Inside auto layout */
-    flex: none;
-    order: 0;
-    flex-grow: 0;
 }
